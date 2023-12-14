@@ -1,0 +1,71 @@
+@font-face {
+    font-family: kanit;
+    src: url("Kanit-Regular.ttf");
+}
+
+body{
+    background-color: black;
+    --bs-body-font-family: kanit;
+    
+}
+
+.navbs{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 150;
+}
+
+.heacerw{
+    font-size: 200px;
+    transition: all .7s;
+    cursor: default;
+    color: rgba(0, 0, 0, 0.514);
+    text-shadow: 0 0 3150px rgb(255, 255, 255);
+    
+}
+.heacerw:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 50px black,0 0 35px white;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    overflow: hidden;
+    height: 500px;
+
+}
+
+.bhg{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    filter: grayscale(1) blur(.7px);
+    margin-top: -10px;
+}
+
+.elonfacwe{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+
+marquee{
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+
+.info1{
+    display: flex;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+b{
+    font-size: 50px;
+}
